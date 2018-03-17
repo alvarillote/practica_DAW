@@ -133,6 +133,7 @@
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
+            
             <div class="modal-body">
               <form class="form-horizontal" role="form" action="comunidad.jsp" method="POST">
                 <div class="form-group">
@@ -157,7 +158,8 @@
               </form>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-success" data-dismiss="modal">Guardar</button>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+              <button type="submit" class="btn btn-success" >Guardar</button>
             </div>
           </div>
         </div>
